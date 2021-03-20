@@ -2,25 +2,27 @@
 	"loops": -1,
 	"emitters": [
 		{
-			"width": 128,
-			"height": 128,
-			"frames": 2,
-			"spawn_amount": 2,
+		    "x": 100,
+			"y": 180,
+			"width": 10,
+			"height": 10,
+			"frames": 60,
+			"spawn_amount": 1,
 			"spawns": -1,
 			"particle_settings": {
-				"lifetime": 40,
+				"lifetime": 200,
 				"x_speed": 0,
-				"y_speed": -1,
+				"y_speed": -5,
 				"x_acceleration": 0,
-				"y_acceleration": -0.05,
+				"y_acceleration": -0.1,
 				"scale": [0.8, 1.2],
 				"rotation": [0, 0],
 				"opacity": [1, 0],
 				"shape": "heart16x16.png",
 				"colourise": true,
-				"red": [255, 252],
-				"green": [49, 100],
-				"blue": [99, 123]
+				"blue": [252, 255],
+				"green": [0, 20],
+				"red": [0, 20]
 				
 			},
 			"particle_variation": {

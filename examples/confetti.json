@@ -2,6 +2,8 @@
 	"loops": -1,
 	"emitters": [
 		{
+		        "x": 100,
+		        "y": 180,
 			"width": 8,
 			"height": 8,
 			"frames": 10,
