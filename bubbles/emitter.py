@@ -58,6 +58,12 @@ class Emitter:
         """
         return self._current_spawn > self.spawns != -1 and not self.particles
 
+    def clear(self):
+        """Clear particles and reset
+        """
+        self.reset()
+        self.particles = set()
+
     def reset(self):
         """Resets the Emitter's spawn timeline back to the start so that it can be played again.
 
