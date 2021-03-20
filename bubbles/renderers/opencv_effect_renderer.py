@@ -75,7 +75,7 @@ class OpenCVEffectRenderer(EffectRenderer):
 
     def _render_circle(self, particle):
         texture, size = self._get_shape_surface(particle)
-        cv2.circle(texture, (size/2, size/2), size, list(particle.colour)+[particle.opacity * 255], -1)
+        cv2.circle(texture, (int(size/2), int(size/2)), size, list(particle.colour)+[particle.opacity * 255], -1)
         return texture
 
     def _render_square(self, particle):
